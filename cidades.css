@@ -35,33 +35,3 @@
   background-repeat: no-repeat; /* Não repetir o ícone */
   background-position: right center; /* Posição do ícone */
 }
-
-.banner {
-  overflow: hidden; /* Esconde o texto que sai do contêiner */
-  white-space: nowrap; /* Impede que o texto quebre a linha */
-  width: 100%; /* Largura total do banner */
-  max-height: 250px; /* Altura máxima do banner */
-  display: flex; /* Permite o alinhamento do texto */
-  align-items: center; /* Centraliza verticalmente o texto */
-  background-color: rgb(248, 249, 250); /* Cor de fundo do banner */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra do banner */
-  border-bottom: 1px solid #dee2e6; /* Borda inferior de 1px sólida */
-}
-
-.banner p {
-  display: inline-block;
-  animation: moveBanner 10s linear infinite; /* Animação */
-  font-size: 24px; /* Tamanho da fonte */
-  color: #333; /* Cor do texto */
-  padding: 10px; /* Espaçamento */
-  position: relative; /* Permite o uso do transform */
-}
-
-@keyframes moveBanner {
-  0% {
-      transform: translateX(100%); /* Começa fora da tela à direita */
-  }
-  100% {
-      transform: translateX(-100%); /* Termina fora da tela à esquerda */
-  }
-}
