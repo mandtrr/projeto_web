@@ -35,3 +35,15 @@
   background-repeat: no-repeat; /* Não repetir o ícone */
   background-position: right center; /* Posição do ícone */
 }
+/* tabela */
+.btn-outline-secondary {
+  border: 1px solid #254336;
+  color: #252525;
+}
+.btn-outline-secondary:hover {
+  background-color: #254336;
+}
+
+.table>:not(caption)>*>* {
+  color: #254336;
+}
