@@ -26,41 +26,58 @@
         <div class="nav-underline mx-3 collapse navbar-collapse" id="navbarTogglerDemo01"><a class="nav-link nav link-secondary" href="planos.html">Planos</a></div>
         <div class="nav-underline collapse navbar-collapse" id="navbarTogglerDemo01"><a class="nav-link nav link-secondary" href="ajuda.html">Ajuda</a></div>
         
-        <!--MODAL POPUP-->
-        
-        <!--<div class="nav-underline mx-3 collapse navbar-collapse" id="navbarTogglerDemo01"><a class="nav-link nav link-secondary" href="contactos.html">Contate-nos</a></div>-->
-        
-        <!--MODAL BUTTON-->
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-          Launch demo modal
-        </button>
-          <div class="d-flex">
-            <form class="d-flex d-none d-md-flex" role="search">
+        <!--MODAL POPUP-->       
+        <!--<div class="nav-underline mx-3 collapse navbar-collapse" id="navbarTogglerDemo01"><a class="nav-link nav link-secondary" href="contactos.html">Contate-nos</a></div>-->        
+        <!--MODAL START BUTTON-->
+        <div type="button" id="navbarTogglerDemo01" class="nav-underline mx-3 collapse navbar-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <a class="nav-link nav link-secondary">Contacte-nos</a>
+        </div>
+        <div class="d-flex">
+          <form class="d-flex d-none d-md-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Buscar na página" aria-label="Search">
             <button class="btn btn-outline-success me-3 btn-cards" type="submit">Buscar</button>
-            </form>
-         </div>
-       </div>
-     </div>
+          </form>
+        </div>
+      </div>
+    </div>
   </nav>
-  <!--MODAL-->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                ...
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
-              </div>
+
+      <!--MODAL BODY-->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content"> 
+            <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <h2 class="modal-title w-100 text-center" id="exampleModalLabel">Entre em contacto connosco!</h2>
+              <p class="text-center">Por favor, preencha o formulário abaixo para que lhe possamos ajudar.</p>
+              <form>
+                <textarea id="message-text" name="message"></textarea>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">First Name:</label>
+                  <input type="text" class="form-control" id="text-name">
+                </div>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Last Name:</label>
+                  <input type="text" class="form-control" id="text-name">
+                </div>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Email:</label>
+                  <input type="email" class="form-control" id="recipient-name">
+                </div>
+                <div class="mb-3">
+                  <label for="message-text" class="col-form-label">Mensagem:</label>
+                  <textarea class="form-control" id="message-text"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer"> 
+              <button type="button" class="btn btn-primary">Save changes</button>
             </div>
           </div>
-        </div> 
+        </div>
+      </div> 
         
         <!--MODAL POPUP END-->         
 
