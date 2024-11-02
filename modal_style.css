@@ -1,0 +1,97 @@
+.modal-header {
+    background-color:#254336;
+    border-bottom: none;
+    color: #254336;
+  }
+  
+  .modal-header .btn-close {
+    filter: invert(1);
+    padding: none;
+  }
+  
+  .modal-header .btn-close:hover {
+    color: white !important;
+  }
+  
+  .modal-body {
+    border-top: none;
+    border-bottom: none;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #254336;
+    justify-content: space-between;
+    padding: 40px;
+    border-radius: 0;
+    background-color: #f9f9f9;
+  }
+  
+  .modal-body h2 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .modal-body form {
+    margin-top: 20px;
+  }
+  
+  .modal-body form input, .modal-body form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .modal-body form input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .modal-body form input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  .modal-body p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .modal-footer {
+    border-top: none;
+    justify-content: center;
+  }
+  
+  #message-text {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #f9f9f9;
+    border-radius: 0;
+    resize: none;
+  }
+  
+  #message:focus {
+    border-color: #f9f9f9;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #btn-submit { 
+    background-color: #002b29;
+    border-color: #002b29;
+    color: white;
+    width: 70%;
+    border-radius: 0;
+  }
+  
+  #btn-submit:hover {
+    background-color: #254336;
+    border-color: #254336;
+    color: white;
+  }
