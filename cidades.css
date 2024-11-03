@@ -46,4 +46,10 @@
 
 .table>:not(caption)>*>* {
   color: #254336;
+  background-color: #f8f9fa;
+}
+
+.table>:not(caption)>*>* {
+  color: #254336;
+  background-color: #f8f9fa;
 }
