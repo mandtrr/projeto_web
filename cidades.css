@@ -48,3 +48,18 @@
   color: #254336;
   background-color: #f8f9fa;
 }
+
+.card-group {
+  display: flex;
+  gap: 5rem;
+}
+
+.btn-custom{
+  background-color: #002b29;
+  border-color: #002b29;
+}
+
+.btn-custom:hover {
+  background-color: #254336;
+  border-color: #254336;
+} 
