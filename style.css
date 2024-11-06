@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 body {
   padding-top: 104px;
 }
@@ -125,7 +127,8 @@ img {
   100% {
     color: #002b29; /* Cor final */
   }
-  
+}
+
 .card-group {
   display: flex;
   gap: 5rem;
@@ -149,4 +152,3 @@ img {
       transform: translateX(-100%); /* Termina fora da tela à esquerda */
   }
 }
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');

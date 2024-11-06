@@ -10,11 +10,6 @@
     padding: none;
   }
   
-  /*De momento não funciona
-  .modal-header .btn-close:hover {
-    color: white !important;
-  }*/
-  
   .modal-body {
     border-top: none;
     border-bottom: none;
