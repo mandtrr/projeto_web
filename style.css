@@ -20,6 +20,15 @@ img {
   color: #254336;
 }
 
+.pontosTermoPrivacidade {
+  color: #158cba ;
+  font-size: 25px;
+}
+
+.title-slide {
+  text-shadow: 3px 3px 10px #000000;
+}
+
 .btn-cards {
   background-color: #002b29;
   border-color: #002b29;
