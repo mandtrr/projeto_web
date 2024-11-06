@@ -42,34 +42,16 @@
   background-position: right center; /* Posição do ícone */
 }
 
-.pricing-table{
-  box-shadow: 0px 0px 18px #ccc;
-  text-align: center;
-  padding: 30px 0px;
-  border-radius: 5px;
-  position: relative;
+/* tabela */
+.btn-outline-secondary {
+  border: 1px solid #254336;
+  color: #252525;
+}
+.btn-outline-secondary:hover {
+  background-color: #254336;
 }
 
-.pricing-table .content .price{
-   background:linear-gradient(to right, #cf8504 0%, #f41602 100%);
-   width: 90px;
-   height: 90px;
-   margin: auto;
-   line-height: 85px;
-   border-radius: 50%;
-   border: 5px solid #fff;
-   box-shadow: 0px 0px 10px #ccc;
-   margin-top: -50px;
-    transition: all 0.5s ease;
-}
-
-.pricing-table:hover .content .price{
-   transform: scale(1.2);
-}
-
-.pricing-table .content .price h1_50{
-   color:#fff;
-   font-size: 30px;
-   font-weight: 700;
-   font-family: 'Montserrat', sans-serif;
+.table>:not(caption)>*>* {
+  color: #254336;
+  background-color: #f8f9fa;
 }

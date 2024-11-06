@@ -113,6 +113,10 @@ img {
   font-family: "DM Serif Text", serif;
 }
 
+.button-close:focus {
+  outline: 2px #254336;
+}
+
 @keyframes colorTransition {
   0% {
     color: #CD1818; /* Cor inicial */
