@@ -20,6 +20,15 @@ img {
   color: #254336;
 }
 
+.pontosTermoPrivacidade {
+  color: #158cba ;
+  font-size: 25px;
+}
+
+.title-slide {
+  text-shadow: 3px 3px 10px #000000;
+}
+
 .btn-cards {
   background-color: #002b29;
   border-color: #002b29;
@@ -105,6 +114,18 @@ img {
 
 }
 
+.button-close:focus {
+  outline: 2px #254336;
+}
+
+@keyframes colorTransition {
+  0% {
+    color: #CD1818; /* Cor inicial */
+  }
+  100% {
+    color: #002b29; /* Cor final */
+  }
+  
 .card-group {
   display: flex;
   gap: 5rem;

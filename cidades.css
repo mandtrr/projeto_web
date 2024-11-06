@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .font-title {
   font-family: "Merriweather", serif;
   font-weight: 300;
@@ -35,6 +41,7 @@
   background-repeat: no-repeat; /* Não repetir o ícone */
   background-position: right center; /* Posição do ícone */
 }
+
 /* tabela */
 .btn-outline-secondary {
   border: 1px solid #254336;
