@@ -2,7 +2,7 @@ DREAM TRIP PROJECT
 
 Site da agência de viagens dream trip:
 
-Fazer download do ficheiro grupo1_dreamTrip.zip
+Fazer download do ficheiro zip
 
 - Página inicial é a index.html
 
