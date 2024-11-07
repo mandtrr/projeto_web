@@ -1,5 +1,11 @@
 DREAM TRIP PROJECT
 
+Grupo formado por:
+- Amanda Alves
+- Amauri Donadon
+- Nuno Quintão
+- Pedro Marques
+
 Site da agência de viagens dream trip:
 
 Fazer download do ficheiro zip
