@@ -35,11 +35,11 @@
 }
 
 .custom-accordion .accordion-button::after {
-  content: ''; /* Garante que o pseudo-elemento é exibido */
-  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"%3E%3Cpath fill="white" d="M1.5 5.5L8 12l6.5-6.5H1.5z"/%3E%3C/svg%3E'); /* Ícone da seta para baixo */
-  background-size: 1rem; /* Tamanho do ícone */
-  background-repeat: no-repeat; /* Não repetir o ícone */
-  background-position: right center; /* Posição do ícone */
+  content: ''; 
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"%3E%3Cpath fill="white" d="M1.5 5.5L8 12l6.5-6.5H1.5z"/%3E%3C/svg%3E'); 
+  background-size: 1rem; 
+  background-repeat: no-repeat; 
+  background-position: right center; 
 }
 
 /* tabela */
