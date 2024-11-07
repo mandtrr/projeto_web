@@ -36,7 +36,7 @@
       <!--MODAL POPUP-->               
       <!--MODAL START BUTTON-->
         <form>
-          <div type="button" id="navbarTogglerDemo01" class="nav-underline mx-3 collapse navbar-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <div type="button" id="modalToggler" class="nav-underline mx-3 collapse navbar-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal">
           <a class="nav-link nav link-secondary">Contacte-nos</a>
         </div>
         </form>
@@ -58,40 +58,40 @@
   </div>
 
       <!--MODAL POPUP BODY--> 
-      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content"> 
-            <div class="modal-header">
-              <button type="button" id="button-close" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <h2 class="modal-title w-100 text-center display-4 title-c2 d-block" id="exampleModalLabel">Entre em contacto connosco!</h2>
-              <p class="text-center">Por favor, preencha o formulário abaixo para que lhe possamos ajudar.</p>
-              <form>
-                <div class="mb-3">
-                  <label for="modal-firstname" class="col-form-label" required>Primeiro Nome:</label>
-                  <input type="text" class="form-control" id="text-name" required>
-                </div>
-                <div class="mb-3">
-                  <label for="modal-lastname" class="col-form-label" required>Último Nome:</label>
-                  <input type="text" class="form-control" id="text-name" required>
-                </div>
-                <div class="mb-3">
-                  <label for="modal-email" class="col-form-label" required>Email:</label>
-                  <input type="email" class="form-control" id="recipient-name" required>
-                </div>
-                <div class="mb-3">
-                  <label for="message-message" class="col-form-label" aria-placeholder="Escreva qual o seu problema ou sugestão">Mensagem:</label>
-                  <textarea class="form-control" id="message-text"></textarea>
-                </div>
-              </form>
-            </div>
-            <div class="modal-footer"> 
-              <button type="submit" id="btn-submit" class="btn btn-primary btn-lg btn-block">Submit</button>
-            </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content"> 
+          <div class="modal-header">
+            <button type="button" id="button-close" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <h2 class="modal-title w-100 text-center display-4 title-c2 d-block" id="exampleModalLabel">Entre em contacto connosco!</h2>
+            <p class="text-center">Por favor, preencha o formulário abaixo para que lhe possamos ajudar.</p>
+            <form>
+              <div class="mb-3">
+                <label for="modal-firstname" class="col-form-label" required>Primeiro Nome:</label>
+                <input type="text" class="form-control" id="modal-firstname" required>
+              </div>
+              <div class="mb-3">
+                <label for="modal-lastname" class="col-form-label" required>Último Nome:</label>
+                <input type="text" class="form-control" id="modal-lastname" required>
+              </div>
+              <div class="mb-3">
+                <label for="modal-email" class="col-form-label" required>Email:</label>
+                <input type="email" class="form-control" id="modal-email" required>
+              </div>
+              <div class="mb-3">
+                <label for="modal-message" class="col-form-label" aria-placeholder="Escreva qual o seu problema ou sugestão">Mensagem:</label>
+                <textarea class="form-control" id="modal-message"></textarea>
+              </div>
+              <div class="modal-footer"> 
+                <button type="submit" id="btn-submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+              </div>
+            </form>
           </div>
         </div>
-      </div> 
+      </div>
+    </div>
       <!--MODAL POPUP END-->         
 
   <section class="container-fluid">
@@ -228,8 +228,8 @@
             <li><a href="parceiros.html">Hotéis parceiros</a></li>
             <li><a href="parceiros.html">Companhias Aéreas parceiras</a></li>
 
-            <li><a href="#">Opiniões</a></li>
-            <li><a href="#">Contate-nos</a></li>
+            <li><a href="opinioes.html">Opiniões</a></li>
+            <li><a id="modalHijack" href="#">Contate-nos</a></li>
             <li><a href="ajuda.html">Ajuda (FAQs)</a></li>
             <li><a href="termosCondicoes.html">Termos e condições</a></li>
             <li><a href="politicaPrivacidade.html">Política de Privacidade</a></li>
@@ -249,5 +249,6 @@
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js-scripts.js"></script> 
 </body>
 </html>
